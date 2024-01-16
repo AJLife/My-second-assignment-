@@ -4,12 +4,23 @@
   box-sizing: border-box;
   font-family: "Mulish", sans-serif;
 }
-body {
-}
 header,
 main {
   max-width: 1170px;
   margin: 0 auto;
+  height: auto;
+}
+.btn-primary {
+  margin-top: 32px;
+  border: 0px;
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  padding: 14px 35px;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
 }
 .common-style {
   color: rgba(164, 164, 184, 0.7);
@@ -21,7 +32,7 @@ main {
 /* Start Header section style */
 .nav-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   cursor: pointer;
   margin: 40px 0px;
@@ -136,7 +147,36 @@ input {
   width: 18px;
   height: 18px;
 }
-.destination-section-images {
+/* Main Section styles */
+
+.popular-tours-section {
+  margin-top: 80px;
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+}
+.Popular-tours-section-content1 h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.Popular-tours-section-content1 p {
+  color: rgba(19, 19, 24, 0.7);
+}
+.Popular-tours-section-content1 ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Popular-tours-section-content1 ul li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.Popular-tours-section-content2 img {
+  border: 16px;
 }
 .why-choose-us-content1 {
   text-align: center;
@@ -213,18 +253,18 @@ hr {
   }
   .nav-bar-items {
     display: none;
-  }.banner-container{
+  }
+  .banner-container {
     width: 100%;
     height: 100%;
-  } .banner-content{
+  }
+  .banner-content {
     padding: 32px;
   }
   .banner-content h1 {
     font-size: 22px;
     font-weight: 800;
     color: #fff;
-  
-  
   }
   .banner-content p {
     width: 100%;
@@ -237,16 +277,33 @@ hr {
     flex-direction: column;
     gap: 14px;
   }
-  
-.banner-element select,input {
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 8px;
-  width: 100%;
-  
-  
-}.banner-element button{
-  width: 100%;
-}
-}
 
+  .banner-element select,
+  input {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .banner-element button {
+    width: 100%;
+    
+  }.popular-tours-section{
+    flex-direction: column;
+    margin: 24px;
+    width: 100%;
+    gap: 30px;
+    
+  }.Popular-tours-section-content1 h1{
+    font-size: 20px;
+    
+  }
+  .Popular-tours-section-content1 ul , p{
+    font-size: 14px;
+    width: 100%;
+    
+  }.Popular-tours-section-content2 img{
+    width: 100%;
+  }
+}
+  
