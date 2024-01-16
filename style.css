@@ -282,7 +282,19 @@ input {
   margin-top: 80px;
   gap: 80px;
 }
+.summary-vacation-special-element {
+  display: flex;
+  margin-top: 80px;
+  gap: 80px;
+}
 .see-all-packages-section-content1 h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  line-height: 60px;
+}
+.summary-vacation-special-content1 h1 {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
@@ -295,7 +307,18 @@ input {
   font-weight: 400;
   line-height: 26px;
 }
+.summary-vacation-special-content1 p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
 .see-all-packages-section-content1 ul {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.summary-vacation-special-content1 ul {
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -308,6 +331,14 @@ input {
   width: 610px;
   height: 442px;
 }
+.summary-vacation-special-content2 {
+  border-radius: 16px;
+  background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0) 100%),
+    url("/Images/images.jpg");
+  background-repeat: no-repeat;
+  width: 610px;
+  height: 442px;
+}
 .see-all-packages-section-content2 h3 {
   color: #fff;
   text-align: center;
@@ -316,10 +347,22 @@ input {
   width: 100%;
   padding-top: 175px;
 }
-.see-all-packages-section-content2 video {
+.summary-vacation-special-content2 h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
   width: 100%;
+  padding-top: 175px;
 }
+
 .see-all-packages-section-content1 ul li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.summary-vacation-special-content1 ul li {
   color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-weight: 400;
@@ -486,6 +529,7 @@ hr {
   .popular-tours-section,
   .why-choose-us-content2,
   .see-all-packages-element,
+  .summary-vacation-special-element,
   .Newsletter-section {
     flex-direction: column;
     margin: 24px;
@@ -493,10 +537,12 @@ hr {
     gap: 30px;
   }
   .Popular-tours-section-content1 h1,
-  .see-all-packages-section-content1 h1 {
+  .see-all-packages-section-content1 h1,
+  .summary-vacation-special-content1 h1 {
     font-size: 20px;
   }
-  .see-all-packages-section-content1 h1 {
+  .see-all-packages-section-content1 h1,
+  .summary-vacation-special-content1 h1 {
     font-weight: 800;
     line-height: 30px;
   }
@@ -518,6 +564,12 @@ hr {
     font-size: 14px;
     line-height: 24px;
   }
+  .summary-vacation-special-content1 p {
+    width: 309px;
+    color: rgba(19, 19, 24, 0.7);
+    font-size: 14px;
+    line-height: 24px;
+  }
   .why-choose-us-content3 {
     margin: 24px 24px;
     width: 573px;
@@ -529,6 +581,10 @@ hr {
     font-size: 14px;
     width: 100%;
   }
+  .summary-vacation-special-content1 ul {
+    font-size: 14px;
+    width: 100%;
+  }
   .see-all-packages-section-content1 ul li {
     color: #131318;
     width: 518px;
@@ -536,15 +592,32 @@ hr {
     font-weight: 700;
     line-height: 26px;
   }
+  .summary-vacation-special-content1 ul li {
+    color: #131318;
+    width: 518px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+  }
   .Popular-tours-section-content2 img,
-  .see-all-packages-section-content1 img,
+  .see-all-packages-section-content2 img,
+  .summary-vacation-special-content2 img,
   .Newsletter-section-content2 {
     width: 100%;
   }
   .see-all-packages-section-content2 {
     width: 100%;
   }
-  .see-all-packages-section-content2 h {
+  .summary-vacation-special-content2 {
+    width: 100%;
+  }
+  .see-all-packages-section-content2 h2 {
+    position: relative;
+    top: 24px;
+    bottom: 18px;
+    left: 40%;
+  }
+  .summary-vacation-special-content2 h2 {
     position: relative;
     top: 24px;
     bottom: 18px;
