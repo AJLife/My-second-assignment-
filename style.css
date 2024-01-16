@@ -280,7 +280,6 @@ input {
 .see-all-packages-element {
   display: flex;
   margin-top: 80px;
-  display: flex;
   gap: 80px;
 }
 .see-all-packages-section-content1 h1 {
@@ -328,8 +327,37 @@ input {
 }
 .Newsletter-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 80px;
+  gap: 80px;
+}
+.Newsletter-section-content1 {
+  width: 474px;
+  height: 422px;
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  padding: 40px;
+}
+.Newsletter-section-content1 h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  padding-bottom: 10px;
+}
+.Newsletter-section-content1 h5 {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+.Newsletter-section form input {
+  display: block;
+  width: 393px;
+  height: 52px;
+  flex-shrink: 0;
+  margin-top: 24px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
 }
 .Newsletter-section-content2 {
   width: 672px;
@@ -338,6 +366,30 @@ input {
   background: url("/Images/Rectangle\ 8\ \(1\).png"),
     lightgray 50% / cover no-repeat;
   background-repeat: no-repeat;
+}
+.discount-badge {
+  text-align: center;
+  border-radius: 16px;
+  background: #ff5400;
+  width: 300px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  position: relative;
+  top: 61%;
+  left: 50%;
+}
+.discount-badge h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.discount-badge h2 {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  padding-top: 10px;
 }
 footer {
   margin-top: 100px;
@@ -419,7 +471,8 @@ hr {
   .destination-section-images3,
   .popular-tours-section,
   .why-choose-us-content2,
-  .see-all-packages-element {
+  .see-all-packages-element,
+  .Newsletter-section {
     flex-direction: column;
     margin: 24px;
     width: 100%;
@@ -467,10 +520,11 @@ hr {
     width: 518px;
     font-size: 16px;
     font-weight: 700;
-    line-height: 26px; 
+    line-height: 26px;
   }
   .Popular-tours-section-content2 img,
-  .see-all-packages-section-content1 img {
+  .see-all-packages-section-content1 img,
+  .Newsletter-section-content2 {
     width: 100%;
   }
   .see-all-packages-section-content2 {
@@ -481,5 +535,9 @@ hr {
     top: 24px;
     bottom: 18px;
     left: 40%;
+  }.discount-badge{
+    position: relative;
+    top: 61%;
+    left: 36%;
   }
 }
